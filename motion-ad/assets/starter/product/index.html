@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Acme Queue (sample product)</title>
+<style>
+  /* a stand-in for the real product: replace this folder with the real app, or point film.config.json at it */
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1440px; height: 900px; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: #f6f6f8; color: #18181b; overflow: hidden; }
+  header { height: 76px; display: flex; align-items: center; gap: 14px; padding: 0 32px; background: #fff; border-bottom: 1px solid #e7e7ea; }
+  #logo { width: 34px; height: 34px; display: block; }
+  header b { font-size: 20px; letter-spacing: -0.02em; }
+  main { padding: 36px 48px; }
+  h1 { font-size: 34px; letter-spacing: -0.03em; margin-bottom: 6px; }
+  p.sub { color: #71717a; margin-bottom: 26px; font-size: 16px; }
+  .bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  button#sort { font: inherit; font-weight: 600; font-size: 16px; padding: 10px 18px; border-radius: 12px; border: 0; background: #4b5ce6; color: #fff; }
+  ul { list-style: none; padding: 0; position: relative; }
+  li { height: 76px; display: flex; align-items: center; gap: 18px; padding: 0 22px; background: #fff; border: 1px solid #ececf0; border-radius: 14px; margin-bottom: 10px; font-size: 18px; transition: transform 0.45s cubic-bezier(0.32, 0.72, 0, 1); }
+  li .tag { margin-left: auto; font-size: 14px; font-weight: 600; padding: 5px 10px; border-radius: 999px; }
+  .high { background: #ffe4e4; color: #c81e1e; } .mid { background: #fff1d6; color: #9a5b00; } .low { background: #e8f7ee; color: #17803d; }
+  #toast { position: absolute; right: 48px; bottom: 40px; background: #18181b; color: #fff; padding: 14px 18px; border-radius: 14px; font-size: 16px; opacity: 0; transform: translateY(8px); transition: opacity 0.3s, transform 0.3s; }
+  #toast.on { opacity: 1; transform: none; }
+</style>
+</head>
+<body>
+<header><img id="logo" src="../brand/logo.svg" alt=""><b>Acme</b></header>
+<main>
+  <h1>Today's queue</h1>
+  <p class="sub">Sunday, 25 October · 6 open</p>
+  <div class="bar"><span>Waiting</span><button id="sort">Sort by urgency</button></div>
+  <ul id="q">
+    <li data-u="1">Refund for order 4417<span class="tag low">Routine</span></li>
+    <li data-u="3">Payment failed: Northwind<span class="tag high">Urgent</span></li>
+    <li data-u="2">Renew the SSL certificate<span class="tag mid">Soon</span></li>
+    <li data-u="1">Update the pricing page<span class="tag low">Routine</span></li>
+    <li data-u="3">Outage report: EU region<span class="tag high">Urgent</span></li>
+    <li data-u="2">Reply to the Globex RFP<span class="tag mid">Soon</span></li>
+  </ul>
+  <div id="toast">Sorted: the most urgent first</div>
+</main>
+<script>
+  /* the product's own behaviour, on whatever clock the page has: the film pins it (frame.js) */
+  document.getElementById('sort').addEventListener('click', function () {
+    var lis = [].slice.call(document.querySelectorAll('#q li')), h = 86;
+    var order = lis.map(function (l, i) { return { l: l, i: i, u: +l.dataset.u }; }).sort(function (a, b) { return b.u - a.u || a.i - b.i; });
+    order.forEach(function (o, k) { o.l.style.transform = 'translateY(' + ((k - o.i) * h) + 'px)'; });
+    setTimeout(function () { document.getElementById('toast').classList.add('on'); }, 500);
+  });
+</script>
+</body>
+</html>

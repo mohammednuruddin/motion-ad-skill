@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "description": "the film's render tools (copied from the motion-ad skill's scripts/)",
+  "dependencies": { "puppeteer-core": "^23.11.1" }
+}
