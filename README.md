@@ -39,7 +39,7 @@ motion-ad/
 **Claude Code:**
 
 ```bash
-git clone https://github.com/nurumino/motion-ad-skill.git
+git clone https://github.com/mohammednuruddin/motion-ad-skill.git
 cp -R motion-ad-skill/motion-ad ~/.claude/skills/
 ```
 
