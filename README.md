@@ -71,6 +71,20 @@ node launch/tools/render.js video launch/out/sample.mp4
 
 The sample takes about 2–3 minutes to render on a laptop.
 
+## Inspired by
+
+The devices in this skill were learned by studying these launch films, frame by frame. Watch the originals: the credit is their makers'.
+
+- [VeduBoi, a launch film for Vale](https://x.com/vedu_boi/status/2113927267558859147): pills inside typed sentences, one brand colour carried through, an orbit round the logo.
+- [vlad, a launch film for Hyperdash](https://x.com/motion_conquest/status/2113388387290013733): the product as the hero, with dense real UI and a pointer doing real things.
+- [Abdullah.A, a launch film for Pulse](https://x.com/abdullah4204k/status/2111150845358444902): a dot that grows into the logo, counters inside typed lines, words beside the product as it pans.
+- [Nazday, healthcare dashboard pages](https://x.com/nazmijavierl/status/2099784026794188975): a light, calm product shown as it's used, with slow camera moves.
+- [VeduBoi, a payments card](https://x.com/vedu_boi/status/2114319230657327580): motion-blurred words on fast moves, an icon inside a line of words.
+- [abdinmotion, "the blueprint"](https://x.com/abdinmotion/status/2114292688841548179): a chapter structure (hook, problem, solution, announcement, why us, logo), and rings and construction lines for type to sit on.
+- [Shajareditx, a launch film for Island](https://x.com/Shajareditx/status/2113843002086949354): dots that orbit, gather and become the logo.
+- [roshannnkumar, a launch film for Spark](https://x.com/roshannnkumar/status/2114092527741743391): clutter made literal before the product brings order, an image inside a line of text.
+- [Abdullah.A, Commas Affiliate Center](https://x.com/abdullah4204k/status/2113321447229907015): the brand shape as the transition, words as windows onto imagery, a clean sound on every move.
+
 ## License
 
 MIT

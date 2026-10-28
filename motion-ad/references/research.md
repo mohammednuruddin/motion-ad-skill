@@ -36,6 +36,22 @@ Write one paragraph a reference in the film's notes (the post, its author and le
 
 **When the user sends more references mid-project, it's feedback.** "Bro see, you're not thinking outside the box enough", with a link, meant "your finale is too literal". Read what the reference does that your film doesn't, and act on the principle, not the surface.
 
+### Worked examples
+
+Nine launch films studied this way, as a model for the notes, and a starting set of references. Each row is what a contact sheet showed, then the principle a new film can borrow (never the surface).
+
+| Reference | What it does | The principle to borrow |
+|---|---|---|
+| [VeduBoi, for Vale](https://x.com/vedu_boi/status/2113927267558859147), 62 s | Dark and green, fast cuts between dark and white, pills inside typed sentences, the logo on a sunburst with an orbit diagram round it, product UI on tilted floating screens, stat chips counting up. | Put a line's key word in a pill; carry one brand colour through every shot. |
+| [vlad, for Hyperdash](https://x.com/motion_conquest/status/2113388387290013733), 77 s | A rotating word over newsprint, then a short title before each stretch of dense, real product UI driven by a pointer. | The product is the hero: a short line, then the proof on screen, live. |
+| [Abdullah.A, for Pulse](https://x.com/abdullah4204k/status/2111150845358444902), 52 s | Typed lines with counters inside them, a dot that grows into the logo, words beside the dashboard as it pans, a funnel of stat chips. | Grow the mark out of something already on screen; set words beside a moving product, not over it. |
+| [Nazday, healthcare dashboard pages](https://x.com/nazmijavierl/status/2099784026794188975), 15.5 s | A light, calm dashboard on a tablet, shown as it's used, with slow camera moves. | A bar for calm: slow framing suits a product that asks for trust. |
+| [VeduBoi, a payments card](https://x.com/vedu_boi/status/2114319230657327580), 34 s | Gradients, 3D cards with light streaks, motion-blurred words, an icon inside a line, the logo on black. | Motion blur on fast moves; an icon or image can stand in for a word. |
+| [abdinmotion, "the blueprint"](https://x.com/abdinmotion/status/2114292688841548179), about 25 s | Hook, problem, solution, announcement, why us, logo; construction lines and dashed rings that type sits on; a logo revealed by rising bars. | A chapter structure to start from; construction geometry as a stage for type and the mark. |
+| [Shajareditx, for Island](https://x.com/Shajareditx/status/2113843002086949354) | Dots that orbit, gather and become the logo; a radial diagram round a centre; big words over a landscape. | Things gathering into the mark. |
+| [roshannnkumar, for Spark](https://x.com/roshannnkumar/status/2114092527741743391) | Clutter made literal (a wall of folder icons), then order; floating 3D cards; an image inside a line of text. | Show the problem as a picture, then let the product sort it. |
+| [Abdullah.A, Commas Affiliate Center](https://x.com/abdullah4204k/status/2113321447229907015) | The brand shape is the transition (the logo wipes the scene), words as windows onto imagery, soft halos in the brand colour, a coin travelling across the UI to join moments, a clean sound on every move. | Sent mid-project as feedback on a finale that was too literal: let the brand's own shape do the cutting, and give every move a sound. |
+
 ## 2. Finding more on your own
 
 Spend some time looking past the user's links, especially for the hardest part of this film. Good places to look:
