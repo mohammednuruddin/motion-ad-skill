@@ -1,0 +1,7 @@
+{
+  "root": ".",
+  "film": "/film/film.html",
+  "inject": ["/product/index.html"],
+  "clock": { "start": "2026-10-25T14:37:00", "localStorage": {} },
+  "width": 1920, "height": 1080, "fps": 60
+}
